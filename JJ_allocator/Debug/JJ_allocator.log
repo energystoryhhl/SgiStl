@@ -1,0 +1,7 @@
+﻿  源.cpp
+  allocate2.cpp
+  正在生成代码...
+f:\github\sgi_std\allocator\jj_allocator\jj_allocator\allocate2.h(54): warning C4715: “default_allocate<0,0>::allocate2”: 不是所有的控件路径都返回值
+源.obj : error LNK2019: 无法解析的外部符号 "private: static void * __cdecl default_allocate<0,0>::refill(unsigned int)" (?refill@?$default_allocate@$0A@$0A@@@CAPAXI@Z)，该符号在函数 "public: static void * __cdecl default_allocate<0,0>::allocate2(unsigned int)" (?allocate2@?$default_allocate@$0A@$0A@@@SAPAXI@Z) 中被引用
+源.obj : error LNK2001: 无法解析的外部符号 "private: static union default_allocate<0,0>::obj * volatile * volatile default_allocate<0,0>::free_list" (?free_list@?$default_allocate@$0A@$0A@@@0RCRATobj@1@C)
+F:\Github\SGI_STD\allocator\JJ_allocator\Debug\JJ_allocator.exe : fatal error LNK1120: 2 个无法解析的外部命令
